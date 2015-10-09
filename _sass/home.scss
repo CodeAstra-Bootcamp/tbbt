@@ -7,14 +7,38 @@
   background-repeat: no-repeat;
   background-position: 50% 100%;
 
-  h1 {
+  .vcenter {
     background-color: $primary-color;
     color: $light-font-color;
     text-align: center;
-    margin: 0;
     padding: 5vh;
-    font-size: 5vw;
-    font-weight: 100;
     @include vertical-center;
+
+    h1 {
+      margin: 0;
+      font-size: 5vw;
+      font-weight: 100;
+    }
+
+    .links {
+      width: 52vw;
+      margin: 4vh auto 0;
+
+      a {
+        width: 24%;
+        display: inline-block;
+        transition: transform 0.3s ease-in;
+
+        &:hover {
+          transform: scale(1.4);
+        }
+
+        &:hover, &:visited, &:active {
+          color: $light-font-color;
+          text-decoration: none;
+        }
+      }
+    }
   }
+
 }
