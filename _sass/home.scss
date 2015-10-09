@@ -33,7 +33,7 @@
           transform: scale(1.4);
         }
 
-        &:hover, &:visited, &:active {
+        &, &:hover, &:visited, &:active {
           color: $light-font-color;
           text-decoration: none;
         }
