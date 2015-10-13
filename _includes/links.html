@@ -1,0 +1,7 @@
+{% for page in site.pages %}
+  {% if include.param == "show-li" %}
+    <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+  {% else %}
+    <a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a>
+  {% endif %}
+{% endfor %}
