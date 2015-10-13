@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<header>
-  <h1>Header</h1>
-</header>
+{% include header.html %}
 
-<article class="page-content">
+<section class="page-content container">
   {{ content }}
-</article>
+</section>
 
-<footer>
-  <p>Footer &copy; 2015</p>
-</footer>
+{% include footer.html %}
