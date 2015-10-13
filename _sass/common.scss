@@ -1,3 +1,27 @@
 body {
   font-family: $main-font;
 }
+
+nav.navbar-default {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  border-radius: 0;
+
+  .navbar-brand, .navbar-nav>li>a {
+    &, &:hover, &:visited, &:active {
+      color: $light-font-color;
+    }
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .navbar-nav>li>a {
+    transition: transform 0.3s ease-in;
+
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+}
