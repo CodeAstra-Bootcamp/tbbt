@@ -1,0 +1,25 @@
+#blog {
+  #posts {
+    .post {
+      .metainfo {
+        background-color: $primary-color;
+        color: $light-font-color;
+        width: 8em;
+        text-align: center;
+        font-weight: 100;
+        height: 8em;
+        border-radius: 50%;
+        padding-top: 1.5em;
+
+        .date {
+          font-size: 3em;
+          line-height: 1em;
+        }
+
+        .month {
+          font-size: 1.7em;
+        }
+      }
+    }
+  }
+}
