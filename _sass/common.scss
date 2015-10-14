@@ -49,3 +49,12 @@ h2 {
   /* Opera 11.10+ */
   background: -o-linear-gradient(left, $primary-color, $white);
 }
+
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: $primary-color;
+  font-size: 1.2em;
+  font-weight: 300;
+}
