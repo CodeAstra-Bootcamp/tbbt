@@ -107,5 +107,114 @@
         airDate: "May 19, 2008"
       }
     ]
+  },
+  {
+    seasonTitle: "Season 2",
+    seasonDuration: "2008-2009",
+    seasonCode: "S02",
+    episodes: [
+      {
+        episodeCode: "E01",
+        title: "Fake Pilot",
+        director: "James Burrows",
+        airDate: "September 24, 2007"
+      },
+      {
+        episodeCode: "E02",
+        title: "Fake The Big Bran Hypothesis",
+        director: "Mark Cendrowski",
+        airDate: "October 1, 2007"
+      },
+      {
+        episodeCode: "E03",
+        title: "Fake The Fuzzy Boots Corollary",
+        director: "Mark Cendrowski",
+        airDate: "October 8, 2007"
+      },
+      {
+        episodeCode: "E04",
+        title: "Fake The Luminous Fish Effect",
+        director: "Mark Cendrowski",
+        airDate: "October 15, 2007"
+      },
+      {
+        episodeCode: "E05",
+        title: "Fake The Hamburger Postulate",
+        director: "Weyman",
+        airDate: "October 22, 2007"
+      },
+      {
+        episodeCode: "E06",
+        title: "Fake The Middle-Earth Paradigm",
+        director: "Mark Cendrowski",
+        airDate: "October 29, 2007"
+      },
+      {
+        episodeCode: "E07",
+        title: "Fake The Dumpling Paradox",
+        director: "Mark Cendrowski",
+        airDate: "November 5, 2007"
+      },
+      {
+        episodeCode: "E08",
+        title: "Fake The Grasshopper Experiment",
+        director: "Ted Wass",
+        airDate: "November 12, 2007"
+      },
+      {
+        episodeCode: "E09",
+        title: "Fake The Cooper-Hofstadter Polarization",
+        director: "Joel Murray",
+        airDate: "March 17, 2008"
+      },
+      {
+        episodeCode: "E010",
+        title: "Fake The Loobenfeld Decay",
+        director: "Mark Cendrowski",
+        airDate: "March 24, 2008"
+      },
+      {
+        episodeCode: "E011",
+        title: "Fake The Pancake Batter Anomaly",
+        director: "Mark Cendrowski",
+        airDate: "March 31, 2008"
+      },
+      {
+        episodeCode: "E012",
+        title: "Fake The Jerusalem Duality",
+        director: "Mark Cendrowski",
+        airDate: "April 14, 2008"
+      },
+      {
+        episodeCode: "E013",
+        title: "Fake The Bat Jar Conjecture",
+        director: "Mark Cendrowski",
+        airDate: "April 21, 2008"
+      },
+      {
+        episodeCode: "E014",
+        title: "Fake The Nerdvana Annihilation",
+        director: "Mark Cendrowski",
+        airDate: "April 28, 2008"
+      },
+      {
+        episodeCode: "E015",
+        title: "Fake The Shiksa Indeterminacy",
+        director: "Mark Cendrowski",
+        airDate: "May 5, 2008"
+      },
+      {
+        episodeCode: "E016",
+        title: "Fake The Peanut Reaction",
+        director: "Mark Cendrowski",
+        airDate: "May 12, 2008"
+      },
+      {
+        episodeCode: "E017",
+        title: "Fake The Tangerine Factor",
+        director: "Mark Cendrowski",
+        airDate: "May 19, 2008"
+      }
+    ]
   }
 ]
