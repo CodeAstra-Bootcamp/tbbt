@@ -5,7 +5,25 @@ permalink: /episodes/
 position: 2
 ---
 
-<h1>Episodes</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, aspernatur doloribus quaerat eligendi pariatur, ratione tenetur ex nemo voluptatum quas dignissimos harum labore sapiente? Iusto consectetur iste veritatis nobis eveniet!</p>
-<p>Quos atque quod aperiam, adipisci eligendi dolorum vel voluptas facere ex est, labore sit autem? Vero facere deleniti perferendis, accusamus blanditiis ab optio, hic at ea modi iste quas facilis!</p>
-<p>Quod sunt blanditiis, molestias cumque temporibus placeat qui, totam optio ipsum dicta excepturi ad incidunt ex corporis, numquam, reiciendis minus eveniet quas delectus omnis rem pariatur sequi. Nulla, inventore saepe.</p>
+<div id="episodes">
+  <h1>Episodes</h1>
+  <div class="row">
+    <aside class="col-sm-3" id="season-selector">
+      <a href="#/season-1">Season 1</a>
+      <a href="#/season-2">Season 2</a>
+      <a href="#/season-3">Season 3</a>
+      <a href="#/season-4">Season 4</a>
+      <a href="#/season-5">Season 5</a>
+      <a href="#/season-6">Season 6</a>
+      <a href="#/season-7">Season 7</a>
+      <a href="#/season-8">Season 8</a>
+      <a href="#/season-9">Season 9</a>
+    </aside>
+    <section class="col-sm-9" id="episode-details">
+      {% for episode in site.data.seasons[0].episodes %}
+        <p>{{ episode.episodeCode }}: {{episode.title}}</p>
+      {% endfor %}
+    </section>
+  </div>
+
+</div>
