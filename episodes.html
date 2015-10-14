@@ -12,12 +12,12 @@ position: 2
   <div class="row">
     <aside class="col-sm-3 list-group" id="season-selector">
       {% for season in seasons %}
-        <a href="#/season-{{season.seasonCode}}" class="list-group-item">{{season.seasonTitle}}</a>
+        <a href="#/season-{{season.seasonCode}}" class="list-group-item" data-target="#episodes-{{season.seasonCode}}">{{season.seasonTitle}}</a>
       {% endfor %}
     </aside>
     <section class="col-sm-9" id="episode-details">
       {% for season in seasons %}
-        <article class="episodes list-group">
+        <article class="episodes list-group hidden" id="episodes-{{season.seasonCode}}">
           {% for episode in season.episodes %}
             <div class="list-group-item">
               <h4 class="list-group-item-heading">{{ season.seasonCode}}{{ episode.episodeCode }}: {{episode.title}}</h4>
